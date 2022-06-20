@@ -28,3 +28,5 @@ export default router
 // git branch -M main
 // git remote add origin https://github.com/AbhineshG/backendwithtodoapp.git
 // git push -u origin main
+
+// git push --set-upstream origin master
