@@ -23,13 +23,6 @@ app.use("/api",todoes)
 //     app.use(express.static("todolists/build"));
 // }
 const PORT = process.env.PORT || 5000;
-
-// Step 1:
-app.use(express.static(path.resolve(__dirname, "./todolists/build")));
-// Step 2:
-app.get("*", function (request, response) {
-  response.sendFile(path.resolve(__dirname, "./todolists/build", "index.html"));
-});
-
+ 
 app.listen(PORT,()=> console.log("Server Is Running On Port No : 5000"))
-const mongodb = "mongodb://localhost:27017/TODO_Application"
+ 

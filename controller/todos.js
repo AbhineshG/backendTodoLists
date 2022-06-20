@@ -4,8 +4,7 @@ import Todo  from "../models/todos.js";
 
 
 export const readTodos = async(req,res)=>{
-    console.log(req,res,"----------------line no 7");
-    try {
+     try {
         const todos = await Todo.find();
         res.status(200).json(todos);
     } catch (error) {
