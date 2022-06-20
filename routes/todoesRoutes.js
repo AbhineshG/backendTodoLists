@@ -21,3 +21,10 @@ export default router
 // 5. git remote add origin 'your_url_name' 
 
 // 6. git push -u origin master //then login w/ your creds
+
+// git init
+// git add .
+// git commit -m "first commit"
+// git branch -M main
+// git remote add origin https://github.com/AbhineshG/backendwithtodoapp.git
+// git push -u origin main
